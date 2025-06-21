@@ -1,3 +1,5 @@
 sphinxcontrib-httpdomain==1.7.0
 mistyfy
 sphinx-autoapi
+requests>=2.32.4 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
